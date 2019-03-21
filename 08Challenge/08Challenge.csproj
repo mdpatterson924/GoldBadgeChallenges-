@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{87DD017F-A08A-4642-8B96-31265D10D554}</ProjectGuid>
+    <ProjectGuid>{52075E6B-F445-4502-8E85-0ACC79110950}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01_Challenge</RootNamespace>
-    <AssemblyName>01_Challenge</AssemblyName>
+    <RootNamespace>_08Challenge</RootNamespace>
+    <AssemblyName>08Challenge</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Menu.cs" />
-    <Compile Include="MenuRepository.cs" />
+    <Compile Include="InsuranceRepository.cs" />
+    <Compile Include="Driver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ProgramUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Prompt.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
